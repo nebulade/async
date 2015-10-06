@@ -2,5 +2,6 @@
 <RCC>
     <qresource prefix="/de/nebulon/async">
         <file>qmldir</file>
+        <file>async.js</file>
     </qresource>
 </RCC>
