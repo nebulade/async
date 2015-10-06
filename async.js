@@ -1,9 +1,15 @@
+.pragma library
+
+// export for QML
+var Async;
+
 /*!
  * async
  * https://github.com/caolan/async
  *
  * Copyright 2010-2014 Caolan McMahon
  * Released under the MIT license
+ * Modified by Johannes Zellner to work with QML
  */
 (function () {
 
@@ -1215,8 +1221,9 @@
         });
     }
     // included directly via <script> tag
+    // TODO better detect QML
     else {
-        root.async = async;
+        Async = async;
     }
 
 }());
