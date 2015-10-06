@@ -1,0 +1,22 @@
+{
+  "name": "de.nebulon.async",
+  "description": "",
+  "author": {
+    "name": "Johannes Zellner",
+    "email": "johannes@nebulon.de"
+  },
+  "repository": {
+    "type": "GITHUB",
+    "url": "git@github.com:nebulade/async.git"
+  },
+  "version": {
+    "label": "0.0.1",
+    "revision": "",
+    "fingerprint": ""
+  },
+  "dependencies": [
+  ],
+  "license": "MIT",
+  "pri_filename": "de_nebulon_async.pri",
+  "webpage": ""
+}

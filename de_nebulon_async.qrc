@@ -1,0 +1,6 @@
+
+<RCC>
+    <qresource prefix="/de/nebulon/async">
+        <file>qmldir</file>
+    </qresource>
+</RCC>
